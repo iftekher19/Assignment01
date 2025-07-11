@@ -83,3 +83,50 @@ nav ul li a {
     padding: 14px 30px;
     font-size: 16px;
 }
+
+/* action */
+
+.preview-section {
+    background-color: #f6f8fe;
+    padding: 80px 120px;
+}
+
+.preview-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.preview-text {
+    max-width: 500px;
+}
+
+.preview-title {
+    font-size: 28px;
+    font-weight: 800;
+    color: #1f1f1f;
+    margin-bottom: 16px;
+}
+
+.preview-desc {
+    font-size: 16px;
+    color: #6b7280;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+.preview-btn {
+    background-color: #4f46e5;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.preview-image img {
+    max-width: 420px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
