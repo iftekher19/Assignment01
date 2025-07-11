@@ -130,3 +130,51 @@ nav ul li a {
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
+
+/* productive user */
+
+.stats-section {
+    background-color: #f6f8fe;
+    padding: 60px 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.stats-container {
+    background-color: #e9eefe;
+    padding: 50px 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.stats-heading {
+    font-size: 22px;
+    font-weight: 800;
+    color: #1f1f1f;
+    margin-bottom: 40px;
+}
+
+.stats-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    flex: 1;
+}
+
+.stat-number {
+    font-size: 36px;
+    color: #4f46e5;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.stat-label {
+    color: #6b7280;
+    font-size: 14px;
+}
